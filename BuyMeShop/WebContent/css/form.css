@@ -1,0 +1,263 @@
+body {
+	font-size:1rem;
+	line-height:1.5;
+	margin:0;
+}
+.form-control{
+	width:330px; 
+	padding:15px; 
+	margin:0 auto;
+	box-sizing: border-box;
+}
+
+.form-control .input-field {
+	padding:5px 10px; 
+	line-height:1.5; 
+	display:block; 
+	width:100%; 
+	font-size:15px; 
+	box-sizing:border-box;
+	border: 1px solid #ced4da;
+}
+
+.form-control .submit-btn {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    display: block;
+    margin-top: 20px;
+    background-color: #0079bc;
+    color: #fff;
+    border-color: #0079bc;
+    width: 100%;
+	
+}
+
+.row {
+ 	flex-wrap: wrap;
+    	margin-right: -15px;
+    	margin-left: -15px;
+    	margin-bottom: 1rem;
+}
+
+label{
+	display:inline-block;
+	margin-bottom:.5rem;
+}
+
+.app-width {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.top-nav{
+	background: #1e8cbe;
+	color:#fff;
+	height: 50px;
+}
+
+.top-nav .app-log-thumb {
+	width: 33%;
+	display: inline-block;
+}
+
+.top-nav .notification-bar{
+	display: inline-block;
+    text-align: center;
+    margin: auto;
+    width: 33%;
+}
+
+.top-nav .notification-bar label{
+	line-height: 50px;
+}
+
+.top-nav .user-bar {
+	width: 33%;
+	position: relative;
+	float: right;
+	margin-top: 12px;
+	text-align: right;
+}
+
+.top-nav .user-bar .nav-message{
+	text-align: right;
+	padding-right: 50px;	
+}
+.top-nav .user-bar .nav-message a{
+	text-decoration: none;
+	color: #fff;	
+}
+
+.top-nav .user-bar .nav-user {
+	border-right: 1px solid;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.top-nav .user-bar .logout {
+	padding-left: 10px;
+}
+
+.top-nav .user-bar .logout a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.mid-nav {
+	background: #47b0e2;
+	color: #fff;
+	height: 80px;
+}
+
+.mid-nav .logo{
+	width: 20%;
+	display: inline-block;
+}
+
+.mid-nav .main-menu {
+	display: inline-block;
+	height: 80px;
+    float: right;
+    margin: 0 30px;
+    padding: 0;
+}
+
+.main-menu .menu-item {
+	list-style-type: none;
+    padding: 0 15px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.main-menu .menu-item a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.mid-nav .post-auction-btn {
+    display: inline-block;
+    float: right;
+    margin-top: 30px;
+}
+
+.mid-nav .post-auction-btn a{
+	text-decoration: none;
+    color: #fff;
+    border: 1px solid #009688;
+    padding: 10px;
+    background: #009688;
+    border-radius: .25rem;
+    font-size: 15px;
+}
+
+.main-background {
+	width: 100%;
+	min-height: 500px;
+	background: url(../images/buy-cart.png) top;
+	background-size: cover;
+}
+
+.main-background .headline {
+    color: #2a3f54;
+    margin: auto;
+    padding-top: 78px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.item-list {
+	margin:0;
+}
+
+.item-list li{
+    list-style-type: none;
+	padding: 10px 0;
+    min-height: 100px;
+    border-bottom: 1px solid #eee;
+}
+
+.item-list li div {
+	display: inline-block;
+}
+
+.item-list .item-wrapper {
+	margin: 0 20px;
+    width: calc(100% - 280px);
+    float: right;
+}
+
+.item-list .item-wrapper h3 {
+    margin: 0;
+    font-weight: normal;	
+    font-size: 22px;
+    color: #333;
+}
+
+.item-list .item-wrapper .item-attr{
+  	color: #767676;
+    font-size: 15px;
+    display: block;
+    padding: 5px 0;
+}
+
+.item-list .item-wrapper .item-attr .left-attr{
+	width: 150px;
+}
+
+.item-list .item-wrapper .item-attr .right-attr{
+	margin: 0 10px;
+}
+
+.item-list .item-wrapper .item-attr h4 {
+    display: inline-block;
+    color: #333;
+    margin: 0 10px;
+    font-size: 17px;
+}
+
+.item-list .item-wrapper .form-control {
+    width: 210px;
+    padding: 0;
+    margin: 0 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.item-list .item-wrapper .form-control .input-field {
+	padding: 5px;
+    display: inline-block;
+    width: 80px;
+    font-size: 11px;
+}
+
+.item-list .item-wrapper .form-control .submit-btn {
+    padding: 5px;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    width: 80px;
+    font-size: 11px;
+}
+
+.message-table {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.message-table .item-list li{
+	min-height: 25px;
+}
+
+.message-table .item-list li label {
+	margin:0;
+}
+
+.footer {
+	display: block;
+    padding-top: 1rem;
+    line-height: 3;
+    text-align: right;
+}
